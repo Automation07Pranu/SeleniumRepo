@@ -33,7 +33,7 @@ public class ActionsClickSendKeys {
 		
 		
 		doActionsSendKeys(fn, "Pranli");
-		doActionsSendKeys(ln, "Automation");
+		doActionsSendKeys(ln, "Nagare");
 		doActionsCick(continueBtn);
 		
 		
