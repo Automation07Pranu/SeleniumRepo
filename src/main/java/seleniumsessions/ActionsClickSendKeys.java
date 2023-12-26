@@ -32,8 +32,8 @@ public class ActionsClickSendKeys {
 		//ElementNotInterceptedException
 		
 		
-		doActionsSendKeys(fn, "Naveen");
-		doActionsSendKeys(ln, "Automation");
+		doActionsSendKeys(fn, "Pranli");
+		doActionsSendKeys(ln, "Nagare");
 		doActionsCick(continueBtn);
 		
 		

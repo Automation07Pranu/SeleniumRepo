@@ -44,7 +44,7 @@ public class AlertJSPopUp {
 		driver.findElement(By.xpath("//button[text()='Click for JS Prompt']")).click();
 		Thread.sleep(3000);
 		Alert alert = driver.switchTo().alert();
-		alert.sendKeys("Naveen");
+		alert.sendKeys("naveen");
 		Thread.sleep(3000);
 		alert.accept();
 		
