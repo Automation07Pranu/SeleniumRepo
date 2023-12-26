@@ -30,7 +30,7 @@ public class SaucedemoTest {
 		Assert.assertEquals(title, "Swag Labs");
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 1,description = "This is test cases to validate login flow in saucedemo")
 	public void loginfunction() throws InterruptedException {
 		driver.findElement(By.id("user-name")).sendKeys("standard_user");
 		driver.findElement(By.name("password")).sendKeys("secret_sauce");
