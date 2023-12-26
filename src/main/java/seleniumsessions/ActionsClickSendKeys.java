@@ -32,7 +32,7 @@ public class ActionsClickSendKeys {
 		//ElementNotInterceptedException
 		
 		
-		doActionsSendKeys(fn, "Naveen");
+		doActionsSendKeys(fn, "Pranli");
 		doActionsSendKeys(ln, "Automation");
 		doActionsCick(continueBtn);
 		
