@@ -11,7 +11,7 @@ public class AmazonTest extends BaseTest {
 	public void titleTest() {
 		String title = driver.getTitle();
 		System.out.println("page title:" + title);
-		Assert.assertEquals(title, "Amazon.com. Spend less. Smile more.");
+		Assert.assertEquals(title, "Amazon.com. Spend less. show teeth.");
 	}
 
 	@Test(priority = 2)
